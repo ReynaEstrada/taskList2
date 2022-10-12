@@ -9,7 +9,7 @@ function TaskForm(props) {
     }
     const handleSending = e => {
         e.preventDefault();
-        console.log('sending form...');
+       // console.log('sending form...');
         const newTask = {
             id: uuidv4(),
             text: input ,
